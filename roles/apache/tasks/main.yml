@@ -1,0 +1,5 @@
+---
+# tasks file for apache
+- import_tasks: install.yaml
+- import_tasks: configure.yaml
+- import_tasks: service.yaml
